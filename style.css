@@ -6,6 +6,7 @@
 
 body {
   margin: 1em;
+  max-width: 1200px;
 }
 
 /* 
@@ -124,7 +125,7 @@ header {
   margin-top: 5em;
 }
 
-.about-course .schedule-item {
+.schedule-item {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -136,11 +137,74 @@ header {
   display: none;
 }
 
-.about-course .schedule-item p:first-child {
+.schedule-item p:first-child {
   font-size: 17px;
   font-weight: bold;
 }
 
-.about-course .schedule-item p:last-child {
+.schedule-item p:last-child {
   font-size: 14px;
+}
+
+@media (min-width: 992px) {
+  body {
+    margin: 1em auto;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .intro .intro-text {
+    width: 60%;
+  }
+
+  .intro .intro-image {
+    width: 40%;
+    margin-right: 5em;
+  }
+
+  .quote {
+    padding: 1.2em;
+    font-size: 20px;
+    margin: 2em 3em;
+  }
+
+  .about-course {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-course .about-text {
+    width: 50%;
+  }
+
+  .about-course .about-text p {
+    margin: 1em 0;
+    line-height: 1.8;
+  }
+
+  .about-course .img-wrapper {
+    width: 50%;
+  }
+
+  .about-course .img-wrapper img {
+    max-width: 200px;
+  }
+
+  #nonmobile {
+    display: block;
+    margin-right: 2.5em;
+  }
+
+  .about-schedule {
+    align-items: center;
+  }
+
+  .schedule-item {
+    width: 10%;
+    margin-bottom: 2em;
+    margin-right: 2.5em;
+  }
 }
