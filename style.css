@@ -11,6 +11,7 @@
 body {
   margin: 1em;
   max-width: 1200px;
+  margin-bottom: 0;
 }
 
 /* 
@@ -217,6 +218,7 @@ header {
 @media (min-width: 1282px) {
   body {
     margin: 2em auto;
+    margin-bottom: 0;
   }
 }
 
