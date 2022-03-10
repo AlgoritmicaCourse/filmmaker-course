@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* destkop version starts */
 .footer {
     width: 100%;
 }
@@ -170,9 +172,9 @@
 }
 /* 3/3 end */
 
-/* desktop view end */
+/* desktop version end */
 
-/* responsive tablet view start */
+/* responsive tablet version start */
 @media  (max-width: 1280px) {
         .footer {
         width: 100%;
@@ -268,4 +270,119 @@
         margin-bottom: 10px;        
     }    
     }
-/* responsive tablet view end */
+/* responsive tablet version end */
+/* responsive mobile view start */
+@media  (max-width: 992px) {
+    .grey {
+        padding-top: 42px;
+        padding-bottom: 53px;
+    }
+    .people {
+        font-size: 26px;
+        margin-left: 36px;
+    }
+    .comment {
+        width: 80%;
+        height: auto;
+        margin-top: 28px;  
+        margin-left: 36px;   
+    }
+    .commentary {
+        padding: 18px 21px 0px 21px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .person {
+        display: flex;
+    }
+    .person_img {
+        
+        margin-top: 13px;
+        margin-left: 7px;    
+    }
+    .name {
+        height: 17px;
+        font-size: 18px;
+    }
+    .ekaterina {
+        margin-top: 31px;
+        margin-left: 14px;
+    }    
+    
+    .green {
+        width: 100%;
+        height: 363px;
+        padding-top: 62px;
+    }
+    .date {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+    .cost { 
+        font-size: 12px;
+       
+    }
+    .value {
+        font-size: 37px;
+    }  
+    .texts {
+        display: flex;
+        margin-top: 30px;
+    }  
+    
+    .head1 {
+        margin-bottom: 5px;
+        font-size: 12px;
+        width: 137px;
+    }
+    .text1 {
+        font-size: 10px;
+        width: 138px;
+        height: 47px;
+    }
+    
+    
+    .black {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-left: 38px;
+        padding-top: 23px;
+        padding-bottom: 18px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .media {
+        width: 14% !important;
+        margin-top: 14px;
+        margin-bottom: 50px;
+    }
+
+    .icon{
+      width: 25px;
+      height: auto;
+      margin-right: 7px;
+    }
+    .sinxro {    
+        font-size: 10px;
+        margin-top: 50px;
+    }
+    .contact {
+        font-size: 12px;
+    }
+    .number {
+        justify-content: space-between;
+        margin-bottom: 10px;
+        
+    }
+    .mail {
+        justify-content: space-between;
+    } 
+
+}
+/* responsive mobile view end */
+
