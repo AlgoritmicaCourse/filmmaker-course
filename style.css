@@ -171,3 +171,101 @@
 /* 3/3 end */
 
 /* desktop view end */
+
+/* responsive tablet view start */
+@media  (max-width: 1280px) {
+        .footer {
+        width: 100%;
+    }
+    .grey {
+        padding-top: 53px;
+        padding-bottom: 65px;
+    }
+    .people {
+        font-size: 32px;
+    }
+    .comment {
+        width: 55%;
+        height: 261.2px;
+        margin-top: 36px;  
+    }
+    .commentary {
+        padding: 23px 26px 0px 23px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .person {
+        display: flex;        
+    }
+    .person_img {
+        margin-top: 6px;
+        margin-left: 15px;    
+    }
+    .name {        
+        height: 34px;
+        font-size: 17px;
+    }
+    .ekaterina {
+        margin-top: 29px;
+        margin-left: 17px;
+    }
+
+    .green {
+        height: 452px;  
+        padding-top: 104px;
+    }
+    .date {
+        font-size: 32px;
+        margin-bottom: 31px;
+    }
+
+    .cost { 
+        font-size: 14px;    
+    }
+    .value {
+        font-size: 46px;
+    }  
+    .texts {
+        margin-top: 39px;
+    }
+
+
+    .head1 {
+        margin-bottom: 5px;
+        font-size: 14px;
+        width: 170px;
+    }
+    .text1 {
+        font-size: 10px;
+        width: 170.28px;
+        height: 40.54px;
+    }
+
+
+    .black {
+        width: 100%;
+        padding-left: 71px;
+        padding-top: 29px;
+        padding-bottom: 23px;
+    }
+
+    .media {       
+        margin-top: 17px;
+        margin-bottom: 84px;
+    }
+    .icon{
+        width: 30px;
+        margin-right: 11px;
+    }
+    .sinxro {    
+        font-size: 10px;
+    }
+    .contact {
+        font-size: 14px;
+    }
+    .number {        
+        margin-bottom: 10px;        
+    }    
+    }
+/* responsive tablet view end */
