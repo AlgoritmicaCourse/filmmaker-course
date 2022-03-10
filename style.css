@@ -105,7 +105,7 @@ header {
 }
 
 .about-course .about-text p {
-  font-size: 18px;
+  font-size: clamp(18px, 2.5vw, 22px);;
   margin: 1em 0;
   line-height: 1.4;
 }
@@ -151,6 +151,10 @@ header {
 }
 
 @media (min-width: 992px) {
+  body {
+    margin: 0 2em;
+  }
+
   .intro {
     display: flex;
     flex-direction: row;
@@ -490,7 +494,7 @@ h1 {
 
   .img {
     width: 100%;
-    height: 119px;
+    height: 149px;
   }
 }
 
@@ -551,10 +555,9 @@ h1 {
     list-style: square;
     width: 90%;
     height: auto;
-    padding-left: 3%;
   }
   .typo ul li {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 400px;
     font-style: normal;
     line-height: 18px;
@@ -597,5 +600,382 @@ h1 {
     font-size: 14px;
     line-height: 15px;
     width: 100%;
+    padding: 2em;
+    padding-left: 0;
+    padding-top: 0;
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* destkop version starts */
+.footer {
+  width: 100%;
+}
+/* 1/3 of footer starts */
+.grey {
+  width: 100%;
+  height: auto;
+  background-color: #efefef;
+  padding: 91px 0 111px 8%;
+  display: flex;
+  flex-direction: column;
+}
+.people {
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
+  line-height: 56px;
+}
+.comment {
+  width: 55%;
+  height: auto;
+  margin-top: 65px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+.commentary {
+  padding: 40px 46px 0px 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+.person {
+  display: flex;
+  flex-direction: row;
+}
+.divper {
+  width: 30%;
+  height: auto;
+}
+.person_img {
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 26px;
+}
+.name {
+  font-family: "Roboto Slab", serif;
+  height: 59px;
+  font-size: 25px;
+  padding-bottom: 40px;
+  line-height: 101.38%;
+}
+.ekaterina {
+  margin: 50px 0 0 30px;
+}
+.fb {
+  width: 15%;
+  height: auto;
+}
+/* 1/3 of footer ends */
+/* 2/3 start */
+.green {
+  width: 100%;
+  height: 780px;
+  background: #9dc9c8;
+  padding-top: 179px;
+  padding-left: 8%;
+}
+.date {
+  font-size: 40px;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 54px;
+}
+.price {
+  font-family: "Roboto", sans-serif;
+}
+.cost {
+  font-size: 25px;
+}
+.value {
+  font-size: 75px;
+}
+.texts {
+  display: flex;
+  margin-top: 65px;
+}
+.level {
+  margin-right: 5%;
+}
+
+.head1 {
+  margin-bottom: 9px;
+  font-size: 22px;
+  width: 294px;
+}
+.text1 {
+  font-size: 15px;
+  line-height: 101.38%;
+  width: 294px;
+  height: 70px;
+}
+/* 2/3 end */
+/* 3/3 start */
+
+.black {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding-left: 8%;
+  padding-top: 50px;
+  padding-bottom: 42px;
+}
+.box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.social_media {
+  width: 50%;
+}
+.logo_mobile {
+  width: 20%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.media {
+  display: flex;
+  width: 14%;
+  flex-direction: row;
+  margin: 30px 0 146px 0;
+}
+.icon {
+  width: 35px;
+  height: auto;
+  color: white;
+  margin-right: 15px;
+}
+.sinxro {
+  font-size: 18px;
+}
+.contact {
+  width: 50%;
+  font-size: 20px;
+}
+.number {
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+.number img,
+.mail img {
+  margin-right: 12px;
+}
+/* 3/3 end */
+
+/* desktop version end */
+
+/* responsive tablet version start */
+@media (max-width: 1280px) {
+  .footer {
+    width: 100%;
+  }
+  .grey {
+    padding-top: 53px;
+    padding-bottom: 65px;
+  }
+  .people {
+    font-size: 32px;
+  }
+  .comment {
+    width: 55%;
+    height: 261.2px;
+    margin-top: 36px;
+  }
+  .commentary {
+    padding: 23px 26px 0px 23px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .person {
+    display: flex;
+  }
+  .person_img {
+    margin-top: 6px;
+    margin-left: 15px;
+  }
+  .name {
+    height: 34px;
+    font-size: 17px;
+  }
+  .ekaterina {
+    margin-top: 29px;
+    margin-left: 17px;
+  }
+
+  .green {
+    height: 452px;
+    padding-top: 104px;
+  }
+  .date {
+    font-size: 32px;
+    margin-bottom: 31px;
+  }
+
+  .cost {
+    font-size: 14px;
+  }
+  .value {
+    font-size: 46px;
+  }
+  .texts {
+    margin-top: 39px;
+  }
+
+  .head1 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    width: 170px;
+  }
+  .text1 {
+    font-size: 10px;
+    width: 170.28px;
+    height: 40.54px;
+  }
+
+  .black {
+    width: 100%;
+    padding-left: 71px;
+    padding-top: 29px;
+    padding-bottom: 23px;
+  }
+
+  .media {
+    margin-top: 17px;
+    margin-bottom: 84px;
+  }
+  .icon {
+    width: 30px;
+    margin-right: 11px;
+  }
+  .sinxro {
+    font-size: 10px;
+  }
+  .contact {
+    font-size: 14px;
+  }
+  .number {
+    margin-bottom: 10px;
+  }
+}
+/* responsive tablet version end */
+/* responsive mobile view start */
+@media (max-width: 992px) {
+  .grey {
+    padding-top: 42px;
+    padding-bottom: 53px;
+  }
+  .people {
+    font-size: 26px;
+    margin-left: 36px;
+  }
+  .comment {
+    width: 80%;
+    height: auto;
+    margin-top: 28px;
+    margin-left: 36px;
+  }
+  .commentary {
+    padding: 18px 21px 0px 21px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .person {
+    display: flex;
+  }
+  .person_img {
+    margin-top: 13px;
+    margin-left: 7px;
+  }
+  .name {
+    height: 17px;
+    font-size: 18px;
+  }
+  .ekaterina {
+    margin-top: 31px;
+    margin-left: 14px;
+  }
+
+  .green {
+    width: 100%;
+    height: 363px;
+    padding-top: 62px;
+  }
+  .date {
+    font-size: 26px;
+    margin-bottom: 26px;
+  }
+  .cost {
+    font-size: 12px;
+  }
+  .value {
+    font-size: 37px;
+  }
+  .texts {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .head1 {
+    margin-bottom: 5px;
+    font-size: 12px;
+    width: 137px;
+  }
+  .text1 {
+    font-size: 10px;
+    width: 138px;
+    height: 47px;
+  }
+
+  .black {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 38px;
+    padding-top: 23px;
+    padding-bottom: 18px;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .media {
+    width: 14% !important;
+    margin-top: 14px;
+    margin-bottom: 50px;
+  }
+
+  .icon {
+    width: 25px;
+    height: auto;
+    margin-right: 7px;
+  }
+  .sinxro {
+    font-size: 10px;
+    margin-top: 50px;
+  }
+  .contact {
+    font-size: 12px;
+  }
+  .number {
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .mail {
+    justify-content: space-between;
+  }
+}
+/* responsive mobile view end */
