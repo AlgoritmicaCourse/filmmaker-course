@@ -112,3 +112,62 @@
     height: 70px;
 }
 /* 2/3 end */
+/* 3/3 start */
+
+.black {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding-left: 8%;
+    padding-top: 50px;
+    padding-bottom: 42px;
+}
+.box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.social_media{
+    width: 50%;
+}
+.logo_mobile {
+    width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.media {
+    display: flex;
+    width: 14%;
+    flex-direction: row;
+    margin: 30px 0 146px 0;
+}
+.icon{
+    width: 35px;
+    height: auto;
+    color: white;
+    margin-right: 15px;
+}
+.sinxro {    
+    font-size: 18px;
+}
+.contact {
+    width: 50%;
+    font-size: 25px;
+    
+}
+.number {
+    justify-content: space-between;
+    margin-bottom: 22px;
+    
+}
+.number img,
+.mail img{
+    margin-right: 12px;
+}
+/* 3/3 end */
+
+/* desktop view end */
