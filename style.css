@@ -278,23 +278,23 @@ h1{
   line-height: 23.4px;
 }
 
-/* shto uznaem */
-
-.ikinci {
+.second{
   margin-bottom: 21px;
-  height: 93px;
-  font-size: 40px;
 }
-.typo {
+
+.second_section{
   margin-bottom: 242px;
 }
-.typo ul {
+
+.second_section ul{
   list-style: square;
-  width: 45%;
-  font-family: "Roboto", sans-serif;
+  width: 47.1%;
+  height: 374px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 8.4%;
 }
-.typo ul li {
-  font-size: 21px;
+.second_section ul li{
+  font-size: 24px;
   font-weight: 400px;
   font-style: normal;
   line-height: 36px;
