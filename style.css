@@ -8,10 +8,11 @@
   font-family: Roboto, sans-serif;
 }
 
-body {
-  margin: 1em;
+.all {
+  width: 100%;
+  padding-left: 1em;
   max-width: 1200px;
-  margin-bottom: 0;
+  margin-bottom: 162px;
 }
 
 /* 
@@ -68,7 +69,7 @@ header {
 }
 
 .intro .intro-image img {
-  margin-right: 1em;
+  padding-right: 1em;
   width: 60%;
   min-width: 160px;
   max-width: 300px;
@@ -152,8 +153,9 @@ header {
 }
 
 @media (min-width: 992px) {
-  body {
-    margin: 0 2em;
+  .all {
+    padding-left: 2em;
+    margin-bottom:76px;
   }
 
   .intro {
@@ -216,9 +218,9 @@ header {
 }
 
 @media (min-width: 1282px) {
-  body {
-    margin: 2em auto;
-    margin-bottom: 0;
+  .all {
+  padding-left: 2em;
+  margin-bottom: 93.83px;
   }
 }
 
