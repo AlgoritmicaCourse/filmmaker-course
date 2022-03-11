@@ -404,118 +404,93 @@ margin-bottom: 45px;
 
 /* responsive */
 
-/*responsive tablet*/
+/*responsive tablet view*/
 
-@media (max-width: 1282px) {
-  h1 {
-    font-size: 32px;
-    line-height: 32.44px;
+@media(max-width: 1280px){
+  .first_section{
+      margin-bottom: 103.55px;
   }
-
-  .birinci {
-    margin-bottom: 20px;
+  
+   h1{
+      font-size: 32px;
+      line-height: 32.44px;
+      height: 53.86px;
   }
-
-  .ul {
-    margin-bottom: 103.55px;
+  .first{
+      margin-bottom: 51.55px;
   }
-  .ul li {
-    font-size: 14px;
+  
+  .ul li p:first-child{
+      height: 22.59px;
+      font-size: 15px;
+      line-height: 19.5px;
   }
-  .ul li:first-child {
-    margin-right: 7%;
+  .ul li p:last-child{
+      width: 172px;
+      font-size: 11px;
+      line-height: 14.3px;
   }
-  .ul li:last-child {
-    margin-left: 7%;
+  
+  
+  .second{
+      margin-bottom: 12.16px;
   }
-  .ul li p:first-child {
-    height: 25px;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 19.5px;
+  
+  .second_section{
+      margin-bottom: 136.19px;
   }
-  .ul li p:last-child {
-    font-size: 11px;
-    line-height: 14.3px;
+  
+  .second_section ul{
+      height: 216.61px;
   }
-
-  .ikinci {
-    margin-bottom: 12.16px;
+  .second_section ul li{
+      font-size: 14px;
+      font-weight: 400px;
+      font-style: normal;
+      line-height: 21px;
   }
-  .typo {
-    margin-bottom: 139.16px;
+  
+  
+  .third{
+      margin-bottom: 55.02px;
   }
-  .typo ul {
-    margin-left: 2em;
+  .third_section{
+      margin-bottom: 52.6px;
   }
-
-  .typo ul li {
-    font-size: 18px;
-    font-weight: 400px;
-    font-style: normal;
-    line-height: 21px;
+  
+  .window:nth-child(4),
+  .window:nth-child(5),
+  .window:nth-child(6){
+   margin-top: 23.75px;
+   margin-bottom: 26.06px;
+  
   }
-
-  /* programma kurs */
-
-  .ucuncu {
-    margin-bottom: 55.02px;
+  
+  .window img{
+      width: 100%;
+      max-height: 92.67px;
+    
   }
-  .sekkiz {
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    flex-wrap: wrap;
+  .img{
+      width: 100%;
+      height: 92.67px;
   }
-  .kvadrat {
-    width: 30%;
-    height: 247px;
+  
+  .text1{
+      height: 41.2px;
+      font-size: 17px;
+      line-height: 22.1px;
+      margin-bottom: 18.53px;
+      margin-left: 11.58px;
   }
-
-  .kvadrat:nth-child(2),
-  .kvadrat:nth-child(5),
-  .kvadrat:nth-child(8) {
-    margin-left: 4.5%;
-    margin-right: 4.5%;
+  .text2{
+      height: 36.49px;
+      font-size: 14px;
+      line-height: 18.2px;
+      margin-left: 11px;
+      margin-bottom: 13.32px;
   }
-  .kvadrat:nth-child(1),
-  .kvadrat:nth-child(2),
-  .kvadrat:nth-child(3) {
-    margin-bottom: 23.75px;
   }
-  .kvadrat:nth-child(4),
-  .kvadrat:nth-child(5),
-  .kvadrat:nth-child(6) {
-    margin-bottom: 26.06px;
-  }
-  .kvadrat img {
-    width: 100%;
-    height: 119px;
-  }
-
-  .kak {
-    margin: 10px 0 20px 12px;
-    width: 211.4px;
-    height: 22.59px;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 22.1px;
-    font-style: normal;
-  }
-  .sent {
-    font-weight: 400px;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 18.2px;
-    margin-left: 11px;
-  }
-
-  .img {
-    width: 100%;
-    height: 149px;
-  }
-}
 
 /*responsive mobile*/
 
