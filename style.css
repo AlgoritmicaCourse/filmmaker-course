@@ -9,9 +9,8 @@
 }
 
 body {
-  margin: 1em;
-  max-width: 1200px;
   margin-bottom: 0;
+  overflow-x: hidden;
 }
 
 /* 
@@ -24,9 +23,17 @@ header {
   margin-top: 3em;
 }
 
+.container {
+  max-width: 1200px;
+}
+
+.logo {
+  margin: 0 1em;
+}
+
 .course-info {
   display: flex;
-  margin: 3em 0 1em 0;
+  margin: 3em 1em 1em 1em;
 }
 
 .info-item {
@@ -43,6 +50,7 @@ header {
 .intro {
   display: flex;
   flex-direction: column;
+  margin: 0 1em;
 }
 
 .intro .intro-text h1 {
@@ -98,7 +106,7 @@ header {
 */
 
 .about-course {
-  margin-top: 5em;
+  margin: 5em 1em 0 1em;
 }
 
 .about-course .about-text h1 {
@@ -106,7 +114,7 @@ header {
 }
 
 .about-course .about-text p {
-  font-size: clamp(18px, 2.5vw, 22px);;
+  font-size: clamp(18px, 2.5vw, 20px);
   margin: 1em 0;
   line-height: 1.4;
 }
@@ -127,7 +135,7 @@ header {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-top: 5em;
+  margin: 5em 1em 0 1em;
 }
 
 .schedule-item {
@@ -152,8 +160,8 @@ header {
 }
 
 @media (min-width: 992px) {
-  body {
-    margin: 0 2em;
+  .container {
+    margin: 1em 2em;
   }
 
   .intro {
@@ -217,15 +225,18 @@ header {
 
 @media (min-width: 1282px) {
   body {
-    margin: 2em auto;
     margin-bottom: 0;
+  }
+
+  .container {
+    margin: 1em auto;
   }
 }
 
 .main {
   width: 100%;
   max-width: 1200px;
-  margin-top: 7em;
+  margin: 7em auto;
 }
 
 /* format zanyatiy */
@@ -244,9 +255,7 @@ h1 {
 }
 .ul {
   list-style: none;
-  font-family: "Roboto", sans-serif;
   display: flex;
-  flex-direction: row;
   margin-bottom: 179px;
 }
 .ul li {
@@ -261,17 +270,14 @@ h1 {
 }
 .ul li p:first-child {
   width: auto;
-  height: 39px;
   font-weight: 700;
-  font-style: normal;
-  font-size: 25px;
-  line-height: 32.5px;
+  font-size: 23px;
   color: #1e4681;
+  margin-bottom: 0.2em;
 }
 .ul li p:last-child {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23.4px;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 /* shto uznaem */
@@ -282,12 +288,13 @@ h1 {
   font-size: 40px;
 }
 .typo {
+  width: 90%;
   margin-bottom: 242px;
 }
 .typo ul {
   list-style: square;
   width: 45%;
-  font-family: "Roboto", sans-serif;
+  margin-left: 2.5em;
 }
 .typo ul li {
   font-size: 21px;
@@ -301,30 +308,31 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
   align-items: center;
 }
 .ucuncu {
-  margin-bottom: 95px;
-  height: 93px;
+  margin-bottom: 3em;
   font-size: 40px;
+  margin-left: 18%;
 }
 
 .sekkiz {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .kvadrat {
   width: 30%;
+  max-width: 300px;
   height: 328px;
   border-radius: 30px;
-  overflow: hidden;
-  background: #ffffff;
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 1px 15px rgb(0 0 0 / 25%);
   margin-bottom: 45px;
-  font-family: "Roboto", sans-serif;
 }
 
 .kvadrat:nth-child(2),
@@ -390,6 +398,10 @@ h1 {
 /*responsive tablet*/
 
 @media (max-width: 1282px) {
+  .main {
+    margin: 4em 2em;
+  }
+
   h1 {
     font-size: 32px;
     line-height: 32.44px;
@@ -412,13 +424,12 @@ h1 {
     margin-left: 7%;
   }
   .ul li p:first-child {
-    height: 25px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 19.5px;
   }
   .ul li p:last-child {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 14.3px;
   }
 
@@ -442,7 +453,7 @@ h1 {
   /* programma kurs */
 
   .ucuncu {
-    margin-bottom: 55.02px;
+    margin-left: 1em;
   }
   .sekkiz {
     width: 95%;
@@ -568,7 +579,8 @@ h1 {
   /* programma kurs */
 
   .ucuncu {
-    margin-bottom: 35px;
+    margin-bottom: 2em;
+    margin-left: 0.7em;
   }
 
   .program {
@@ -578,19 +590,16 @@ h1 {
     justify-content: center;
   }
   .sekkiz {
-    width: 50%;
-    height: auto;
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column;
-    margin-left: 10%;
   }
 
   .kvadrat {
     width: 100%;
     height: auto;
-    margin: 0 0 30px 0 !important;
+    margin: 0 10px 30px 0 !important;
+    flex-wrap: wrap;
   }
 
   .kak {
@@ -880,7 +889,6 @@ h1 {
   }
   .people {
     font-size: 26px;
-    margin-left: 36px;
   }
   .comment {
     width: 80%;
